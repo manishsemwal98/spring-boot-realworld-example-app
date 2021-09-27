@@ -8,6 +8,8 @@ plugins {
     id 'com.gradle.build-scan' version '2.3'
 }
 
+apply plugin: 'com.gradle.build-scan'
+
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
