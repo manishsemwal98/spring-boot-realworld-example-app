@@ -57,7 +57,7 @@ generateJava {
 }
 
 buildScan {
-    licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+    licenseAgreementUrl = 'https://gradle.com/help/plugin-terms-of-service'
     licenseAgree = 'yes'
     publishAlways()
 }
