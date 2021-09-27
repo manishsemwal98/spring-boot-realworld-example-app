@@ -55,3 +55,7 @@ generateJava {
     schemaPaths = ["${projectDir}/src/main/resources/schema"] // List of directories containing schema files
     packageName = 'io.spring.graphql' // The package name to use to generate sources
 }
+
+gradleEnterprise {
+    server = "https://localhost"
+}
