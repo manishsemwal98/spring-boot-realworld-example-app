@@ -5,7 +5,7 @@ plugins {
     id 'idea'
     id 'eclipse'
     id "com.netflix.dgs.codegen" version "4.2.0"
-    id 'com.gradle.build-scan' version '3.7'
+    id 'com.gradle.build-scan' 
 }
 
 version = '0.0.1-SNAPSHOT'
