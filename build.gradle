@@ -59,7 +59,7 @@ generateJava {
 }
 
 buildScan {
-            termsOfServiceUrl = 'https://gradle.com/terms-of-service'     
+            termsOfServiceUrl = 'https://scans.gradle.com/terms-of-service'     
             termsOfServiceAgree = 'yes'                                   
 
             publishAlways()                                                
