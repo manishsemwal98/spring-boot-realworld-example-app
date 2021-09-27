@@ -57,5 +57,8 @@ generateJava {
 }
 
 gradleEnterprise {
-    server = "https://localhost"
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+    }
 }
