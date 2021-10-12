@@ -1,5 +1,7 @@
 FROM gradle:jdk-alpine
 
+MAINTAINER manish semwal
+
 WORKDIR /home/gradle/project
 
 EXPOSE 8080
