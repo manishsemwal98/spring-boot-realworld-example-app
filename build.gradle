@@ -55,7 +55,7 @@ generateJava {
     packageName = 'io.spring.graphql' // The package name to use to generate sources
 }
 
-#buildScan {
+# buildScan {
 #            termsOfServiceUrl = 'https://gradle.com/terms-of-service'    
 #            termsOfServiceAgree = 'yes'                                   
 #
